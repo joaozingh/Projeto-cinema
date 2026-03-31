@@ -1,0 +1,139 @@
+/* ===== RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== BODY ===== */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #0f172a, #1e293b);
+    color: #f1f5f9;
+    padding: 20px;
+}
+
+/* ===== MENU ===== */
+nav {
+    background: #020617;
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    list-style: none;
+}
+
+nav a {
+    color: #e2e8f0;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+/* ===== TÍTULOS ===== */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #38bdf8;
+}
+
+/* ===== FORM ===== */
+form {
+    max-width: 500px;
+    margin: auto;
+    background: #020617;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+/* ===== LABEL ===== */
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #cbd5f5;
+}
+
+/* ===== INPUTS ===== */
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #334155;
+    background: #1e293b;
+    color: white;
+    transition: 0.2s;
+}
+
+input:focus, select:focus {
+    border-color: #38bdf8;
+    outline: none;
+}
+
+/* ===== BOTÃO ===== */
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background: #38bdf8;
+    border: none;
+    border-radius: 6px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #0ea5e9;
+}
+
+/* ===== BOTÃO VOLTAR ===== */
+.btn-voltar {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 18px;
+    background: #334155;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.btn-voltar:hover {
+    background: #38bdf8;
+    color: black;
+}
+
+/* ===== MENSAGEM ===== */
+#mensagem {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* ===== SESSÕES ===== */
+.sessao {
+    background: #020617;
+    border: 1px solid #334155;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.sessao:hover {
+    transform: scale(1.02);
+    border-color: #38bdf8;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Sessões</title>
+
+<link rel="stylesheet" href="sty.css">
+
+</head>
+
+<body>
+
+    <h2>Cadastro de Sessões 🎬</h2>
+
+    <form id="formSessao">
+
+        <!-- Filme -->
+        <label>Filme:</label>
+        <select id="filme" required></select>
+
+        <!-- Sala -->
+        <label>Sala:</label>
+        <select id="sala" required></select>
+
+        <!-- Data e Hora -->
+        <label>Data e Hora:</label>
+        <input type="datetime-local" id="dataHora" required>
+
+        <!-- Preço -->
+        <label>Preço:</label>
+        <input type="number" id="preco" required>
+
+        <!-- Idioma -->
+        <label>Idioma:</label>
+        <select id="idioma" required>
+            <option value="">Selecione</option>
+            <option>Dublado</option>
+            <option>Legendado</option>
+        </select>
+
+        <!-- Formato -->
+        <label>Formato:</label>
+        <select id="formato" required>
+            <option value="">Selecione</option>
+            <option>2D</option>
+            <option>3D</option>
+        </select>
+
+        <p id="mensagem"></p>
+
+        <button type="submit">Salvar Sessão</button>
+
+    </form>
+
+    <a href="index.html" class="btn-voltar">Voltar ao Menu</a>
+
+<script src="cadastro-sessoes.js" defer></script>
+
+</body>
+</html>
