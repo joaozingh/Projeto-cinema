@@ -1,4 +1,4 @@
- const lista = document.getElementById("lista");
+ const lista = document.getElementById("listaSessoes");
 
         function carregarSessoes() {
             let sessoes = JSON.parse(localStorage.getItem("sessoes")) || [];
